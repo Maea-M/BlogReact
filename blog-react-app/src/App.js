@@ -1,6 +1,7 @@
 import './App.css';
 import Meal from './Meal.js';
 import { useEffect, useState } from "react";
+import Menu from './Menu'
 
 function App() {
  //useState retourne 2 éléménst : 
@@ -22,7 +23,7 @@ function App() {
   return (
     <div className="App">
       <header className='App-header'>
-      <p>Bonjour</p>
+      <Menu/>
       <div>
         <Meal meal={meal} />
       </div>

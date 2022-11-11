@@ -1,18 +1,15 @@
-const Meal = ({meal}) => {
-
+const Meal = ({ meal }) => {
     return (
-        <>
+      <>
         {meal ? (
-            <article>
-                <h2>{meal.strMeal}</h2>
-            </article>
+          <article>
+            <h2>{meal.strMeal}</h2>
+          </article>
         ) : (
-            <p>Pas de recette</p>
-        )
-        }
-        </>
-        
+          <p>Pas de recette</p>
+        )}
+      </>
     );
-};
-
-export default Meal;
+  };
+  
+  export default Meal;
